@@ -1,0 +1,97 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Comic Sans MS', sans-serif; /* Use playful font */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffecf0; /* Soft pink background */
+  }
+  
+  /* Calculator Container */
+  .calculator {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  /* Background Image */
+  .calculator-image {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: auto;
+    opacity: 0.1; /* Faint image in the background */
+    z-index: -1; /* Push the image behind the content */
+  }
+  
+  /* Display Screen */
+  #display {
+    background-color: #222;
+    color: #ffeb3b; /* Bright yellow for display */
+    font-size: 2rem;
+    text-align: right;
+    padding: 15px;
+    height: 60px;
+    line-height: 60px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-sizing: border-box;
+    font-family: 'Courier New', monospace;
+  }
+  
+  /* Buttons Container */
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 15px;
+  }
+  
+  /* Buttons Style */
+  .btn {
+    background-color: #ffe4e1; /* Light pink buttons */
+    border: none;
+    font-size: 1.5rem;
+    padding: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .btn.operator {
+    background-color: #ff7eb3; /* Bright pink for operators */
+    color: #fff;
+  }
+  
+  #equals {
+    grid-column: span 4;
+    background-color: #82e0aa; /* Soft green for equals */
+    color: #fff;
+  }
+  
+  #clear {
+    background-color: #f5b7b1; /* Pastel red for clear */
+    color: #fff;
+  }
+  
+  .btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Adjust for Mobile Screens */
+  @media (max-width: 400px) {
+    .calculator {
+      width: 90%;
+    }
+  }
+  
