@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- Custom CSS -->
+    <style>
+        .navbar {
+            background-color: #333;
+        }
+        .navbar a {
+            color: white !important;
+        }
+        .hero-section {
+            background: linear-gradient(to right, #ff6a00, #ee0979), url('https://via.placeholder.com/1200x600') center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+        .hero-section h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        .features {
+            background: #f8f9fa;
+            padding: 50px 0;
+        }
+        .feature-item {
+            text-align: center;
+            padding: 20px;
+        }
+        .about-us {
+            padding: 50px 0;
+        }
+        .about-us img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .services {
+            padding: 50px 0;
+        }
+        .service-item {
+            text-align: center;
+            padding: 20px;
+            background: #f8f9fa;
+            margin-bottom: 30px;
+            border-radius: 8px;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Landing Page</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <h1>Creative Digital Agency</h1>
+            <p>We help businesses succeed in the digital world.</p>
+            <a href="#" class="btn btn-primary btn-lg">Read More</a>
+            <a href="#" class="btn btn-secondary btn-lg">Request a Consultation</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="feature-item">
+                        <i class="fas fa-rocket fa-3x"></i>
+                        <h3>Launch Business</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-item">
+                        <i class="fas fa-headset fa-3x"></i>
+                        <h3>Online Support Team</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-item">
+                        <i class="fas fa-clock fa-3x"></i>
+                        <h3>Time Management</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-us bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="man.png" alt="About Us">
+                </div>
+                <div class="col-md-6">
+                    <h2>About Us</h2>
+                    <p>15 years, we are passionate about achieving better results for our clients. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in diam orci.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <h2 class="text-center">Our Services</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="service-item">
+                        <h3>User Experience</h3>
+                        <p>Enhancing user satisfaction through improved usability and accessibility.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-item">
+                        <h3>Creative Design</h3>
+                        <p>Innovative designs that capture your brand’s identity and vision.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-item">
+                        <h3>Retina Ready</h3>
+                        <p>High-resolution designs optimized for modern displays.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 Landing Page. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
