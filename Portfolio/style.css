@@ -1,0 +1,165 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background: #f4f4f9;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: #6c63ff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 10px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .section {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .section h2 {
+    font-size: 2.5rem;
+    color: #6c63ff;
+    margin-bottom: 20px;
+  }
+  
+  /* About Section */
+  .about-section {
+    background: #e0f7fa;
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .profile-photo {
+    width: 150px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 5px solid #6c63ff;
+  }
+  
+  /* Skills Section */
+  .skills-section {
+    background: #fce4ec;
+  }
+  
+  .skills-list {
+    list-style: none;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .skills-list li {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+  
+  /* Projects Section */
+  .projects-section {
+    background: #ede7f6;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .project {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project h3 {
+    color: #6c63ff;
+  }
+  
+  /* Resume Section */
+  .resume-section {
+    background: #e3f2fd;
+  }
+  
+  /* Contact Section */
+  .contact-section {
+    background: #f1f8e9;
+  }
+  
+  .contact-info {
+    list-style: none;
+    text-align: center;
+  }
+  
+  .contact-info li {
+    margin-bottom: 10px;
+  }
+  
+  .contact-info a {
+    color: #6c63ff;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Buttons */
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  .btn.primary {
+    background-color: #6c63ff;
+    color: #fff;
+  }
+  .footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f8f8f8;
+    color: #333;
+    font-size: 14px;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+  }
+  
+  
